@@ -28,7 +28,106 @@ const ipoData = [
     {
         id: 3,
         logo: "/images/oyo.png",
+        name: "RK Swamy Ltd.",
+        priceBand: "Not Issued",
+        open: "Not Issued",
+        close: "Not Issued",
+        issueSize: "8430 Cr.",
+        issueType: "Book Built",
+        listingDate: "Not Issued",
+    },
+    {
+        id: 1,
+        logo: "/images/nova.png",
         name: "Oravel Stays Ltd.",
+        priceBand: "Rs 39 - 41",
+        open: "2024-01-22",
+        close: "2024-01-24",
+        issueSize: "143.81 Cr.",
+        issueType: "Book Built",
+        listingDate: "2024-01-30",
+    },
+    {
+        id: 2,
+        logo: "/images/epack.png",
+        name: "Imagine marketing Ltd.",
+        priceBand: "Rs 218 - 230",
+        open: "2024-01-19",
+        close: "2024-01-23",
+        issueSize: "640.05 Cr.",
+        issueType: "Book Built",
+        listingDate: "2024-01-29",
+    },
+    {
+        id: 3,
+        logo: "/images/oyo.png",
+        name: "Kids Clinic India Ltd.",
+        priceBand: "Not Issued",
+        open: "Not Issued",
+        close: "Not Issued",
+        issueSize: "8430 Cr.",
+        issueType: "Book Built",
+        listingDate: "Not Issued",
+    },
+    {
+        id: 1,
+        logo: "/images/nova.png",
+        name: "OLA Electric Mobility Ltd.",
+        priceBand: "Rs 39 - 41",
+        open: "2024-01-22",
+        close: "2024-01-24",
+        issueSize: "143.81 Cr.",
+        issueType: "Book Built",
+        listingDate: "2024-01-30",
+    },
+    {
+        id: 2,
+        logo: "/images/epack.png",
+        name: "One Mobikwik Systems Ltd.",
+        priceBand: "Rs 218 - 230",
+        open: "2024-01-19",
+        close: "2024-01-23",
+        issueSize: "640.05 Cr.",
+        issueType: "Book Built",
+        listingDate: "2024-01-29",
+    },
+    {
+        id: 3,
+        logo: "/images/oyo.png",
+        name: "Le Travenues Technology",
+        priceBand: "Not Issued",
+        open: "Not Issued",
+        close: "Not Issued",
+        issueSize: "8430 Cr.",
+        issueType: "Book Built",
+        listingDate: "Not Issued",
+    },
+    {
+        id: 1,
+        logo: "/images/nova.png",
+        name: "CMR Green Technologies",
+        priceBand: "Rs 39 - 41",
+        open: "2024-01-22",
+        close: "2024-01-24",
+        issueSize: "143.81 Cr.",
+        issueType: "Book Built",
+        listingDate: "2024-01-30",
+    },
+    {
+        id: 2,
+        logo: "/images/epack.png",
+        name: "Wellness Forever",
+        priceBand: "Rs 218 - 230",
+        open: "2024-01-19",
+        close: "2024-01-23",
+        issueSize: "640.05 Cr.",
+        issueType: "Book Built",
+        listingDate: "2024-01-29",
+    },
+    {
+        id: 3,
+        logo: "/images/oyo.png",
+        name: "PKH Ventures Ltd.",
         priceBand: "Not Issued",
         open: "Not Issued",
         close: "Not Issued",
@@ -108,6 +207,92 @@ const UpcomingIpo = () => {
                             </div>
                         )}
                     </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                           How to check IPO start date?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                        What is issue size?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                        How many shares in a lot?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                        How is the lot size calculated?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                        Who decides the IPO price band?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                        What is IPO GMP?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className={`faq-section ${activeSection === 3 ? "active" : ""}`}>
+                        <button className="faq-question" onClick={() => toggleSection(3)}>
+                        How many lots should I apply for IPO?
+                            <span className="toggle-icon">{activeSection === 3 ? "−" : "+"}</span>
+                        </button>
+                        {activeSection === 3 && (
+                            <div className="faq-answer">
+                                <p>Analyze the company's financials, industry trends, and market sentiment before investing.</p>
+                            </div>
+                        )}
+                    </div>
+
+
                 </div>
             </div>
         </div>
